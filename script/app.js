@@ -37,6 +37,7 @@ const createUser = user => {
                         <li class="link"><strong><img src="../img/add-user.png" alt="followers icon" style="height: 20px"></strong>${user.followers}</li>
                         <li class="link"><strong><img src="../img/check.png" alt="followers icon" style="height: 20px"></strong>${user.following}</li>
                         <li class="link"><strong><img src="../img/database.png" alt="followers icon" style="height: 20px"></strong>${user.public_repos}</li>
+                        <li class="link"><strong><img src="../img/pin.png" alt="location icon" style="height: 20px"></strong>${user.location}</li>
                     </ul>
                     
                 </ul>
