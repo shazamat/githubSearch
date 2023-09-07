@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+body {
+    font-weight: 400;
+    background:
+            url(https://source.unsplash.com/E8Ufcyxz514/2400x1823)
+            center / cover no-repeat fixed;
+    font-family: 'Space Mono', monospace;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    margin: 0 auto;
+}
+
+#form {
+    width: 500px;
+    margin: 30px 0;
+    padding: 20px;
+    display: flex;
+    border-radius: 10px;
+    background-color: #0d1117;
+}
+
+
+#form input {
+    width: 330px;
+    color: #fff;
+    font-size: 16px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: #0d1117;
+    font-family: 'Space Mono', monospace;
+}
+
+input:focus {
+    outline: none;
+}
+
+#form button {
+    width: 120px;
+    height: 58px;
+    margin-left: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: #2783ff;
+    font-family: 'Space Mono', monospace;
+}
+
+#form button {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+#result {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 35px;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+}
+
+.user-img {
+    margin-left: 115px;
+    width: 190px;
+    border-radius: 50%;
+}
+
+.card {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+.user-info h2 {
+    text-align: center;
+}
+
+.followers {
+    padding: 0;
+    gap: 20px;
+    display: flex;
+
+}
+
+.info {
+    padding: 0;
+}
+
+.link strong {
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
